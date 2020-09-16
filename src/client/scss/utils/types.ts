@@ -3,7 +3,7 @@ export interface IBook {
     categoryid: number;
     title: string;
     author: string;
-    price: decimal;
+    price: number;
     _created: Date;
 
   }
